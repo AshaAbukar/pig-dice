@@ -1,1 +1,14 @@
-
+.container {
+  margin: 40px;
+  padding: 15px;
+}
+#roll {
+  background-color: black;
+  margin-left: 50%;
+  margin-top: 20px;
+}
+#pass {
+  color: purple;
+  background-color: #999;
+  margin-top: 20px;
+}
