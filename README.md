@@ -1,10 +1,9 @@
 ## Project Name:
 Pig Dice
 ### Date: 10/05/2019
+### BY: Aisha Abubakar
 ### Description
 This is a pig dice game that is played by two players. It  records the scores, whose turn it is to play, and alerts who's won the game when the scores reach 100 points.
-
-### BY: Aisha Abubakar
 
 ### Technologies used
 * HTML

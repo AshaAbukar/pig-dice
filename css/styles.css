@@ -1,7 +1,7 @@
 body {
   background-color: purple;
   color: white;
-  background-image: url(images/imaged.png);
+  background-image: url("images/imaged.png");
 }
 h4{
   margin: 30px;
