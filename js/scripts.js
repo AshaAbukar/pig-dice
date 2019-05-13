@@ -10,7 +10,7 @@ function Player(rollDice,turnScore,totalScore,active) {
      this.totalScore=0;
      this.active = active;
  }
-/*
+
  if (random === 1) {
          this.turnScore = 0;
          this.rollDice = 1;
@@ -23,4 +23,5 @@ function Player(rollDice,turnScore,totalScore,active) {
              $(".player2").children().prop('disabled', false);
              $(".player2").removeClass("disableGamingField");
            }
-*/
+
+          
