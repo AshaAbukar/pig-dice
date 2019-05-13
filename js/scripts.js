@@ -45,3 +45,10 @@ function Player(rollDice,turnScore,totalScore,active) {
       alert("Game Over. You have won!!!!");
       resetFields();
       alert("To play with a new partner click new game.")
+
+    } else {
+     return false;
+ }
+ console.log('the turn total is: ' + this.turnScore);
+ return this.totalScore;
+};
