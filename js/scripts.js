@@ -31,3 +31,10 @@ function Player(rollDice,turnScore,totalScore,active) {
                                  $("player1").children().prop('disabled', false);
                                  $(".player1").removeClass("disableGamingField");
                              }
+
+                   return alert("Oooops, you got a 1. It is your partner's turn");
+                  } else {
+                   this.turnScore +=random;
+                  };
+                  return this.diceRoll;
+                  };
