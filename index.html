@@ -13,27 +13,34 @@
       <div class="row">
         <div class="col-md-6">
 
-      <div class="player1">
-        <img src="images/gicon.png" alt="player1 icon" class="player1" height="40%" width="40%">
-        <p class="para1">Player1</p>
-        <p id="score1">Your score: </p>
+          <div class="player1">
+          <img src="images/gicon.png" alt="player1 icon" height="40%" width="40%">
+          <p class="para1">Player1</p>
+          <p id="score1">Your score: </p>
+        </div>
+
       </div>
+
+        <div class="col-md-6">
+
+          <div class="player2">
+            <img src="images/icon.png" alt="player2 icon" width="50%" height="55%">
+            <p class="para2">Player2</p>
+            <p id="score2">Your score: </p>
+          </div>
+
+        </div>
+      </div>`
+
+      <div id="dice">
+        <button type="submit" name="button">0</button>
       </div>
 
       <div class="col-md-6">
-      <div class="player2">
-        <img src="images/icon.png" alt="player2 icon" class="player2" width="50%" height="55%">
-        <p class="para2">Player2</p>
-        <p id="score2">Your score: </p>
+        <button onclick="rollDice()" id="roll">Roll dice</button>
+        <button onclick="passTurn()" id="pass">Hold score</button>
       </div>
-      </div>
-     </div>`
-      <div id="dice"><button type="submit" name="button">0</button></div>
-      <div class="col-md-6">
-      <button onclick="rollDice()" id="roll">Roll dice</button>
-      <button onclick="passTurn()" type="submit" id="pass">Pass turn</button>
-      </div>
-       `
+
     </div>
     <script src="js/jquery-3.4.1.js">
     </script>

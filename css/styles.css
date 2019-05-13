@@ -3,25 +3,39 @@ body {
   color: white;
   background-image: url("images/imaged.png");
 }
+
 h4{
   margin: 30px;
   font-family: serif;
 }
+
 .container {
   margin: 20px;
   padding: 15px;
 }
+
+.player1 {
+  margin-left: 150px;
+}
+
+.player2 {
+  margin-left: 150px;
+}
+
 #roll {
   background-color: black;
   margin-top: 50px;
   color: white;
   margin-left: 250px;
 }
+
 #pass {
   background-color: black;
   color: white;
   margin-top: 20px;
+  margin-left: 60px;
 }
+
 #dice {
-  margin-left: 330px
+  margin-left: 300px
 }
