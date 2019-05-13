@@ -11,6 +11,50 @@ This is a pig dice game that is played by two players. It  records the scores, w
 * CSS
 * JavaScript
 
+## BDD
+<table>
+  <tr>
+    <th>
+      Action
+    </th>
+    <th>
+      Output
+    </th>
+  </tr>
+  <tr>
+    <th>
+      Visit pig dice site
+    </th>
+    <th>
+      Landing page
+    </th>
+  </tr>
+  <tr>
+    <th>
+      To play click roll dice
+    </th>
+    <th>
+      a random is generated
+    </th>
+  </tr>
+  <tr>
+    <th>
+      if the die lands on 1, your scores for that turn become 0
+    </th>
+    <th>
+      click pass turn to let player2 play
+    </th>
+  </tr>
+  <tr>
+    <th>
+      if your total score reach 100
+    </th>
+    <th>
+     You win
+    </th>
+  </tr>
+</table>
+
 ### Setup & installation
 Google chrome/ Mozilla and internet connection
 
