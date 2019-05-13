@@ -15,6 +15,7 @@
       <div id="player1">
         <img src="images/gicon.png" alt="player1 icon" class="player1" height="40%" width="40%">
         <p class="para1">Player1</p>
+        <p id="score1">Your score: </p>
       </div>
       </div>
 
@@ -22,12 +23,13 @@
       <div id="player2">
         <img src="images/icon.png" alt="player2 icon" class="player2" width="50%" height="55%">
         <p class="para2">Player2</p>
+        <p id="score2">Your score: </p>
       </div>
       </div>
-
+      <div id=dice><button type="submit" name="button">0</button></div>
       <div class="col-md-6">
-      <button type="submit" class="btn btn-primary" id="roll">Roll dice</button>
-      <button type="submit" class="btn btn-primary" id="pass">Pass turn</button>
+      <button onclick="rollDice()" id=roll>Roll dice</button>
+      <button type="submit" id="pass">Pass turn</button>
       </div>
     </div>`   `
     </div>
