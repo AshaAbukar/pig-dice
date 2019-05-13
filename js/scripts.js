@@ -38,3 +38,10 @@ function Player(rollDice,turnScore,totalScore,active) {
                   };
                   return this.diceRoll;
                   };
+                  Player.prototype.pass = function () {
+  activePlayer();
+  this.totalScore += this.turnScore;
+  if (this.totalScore >= 100) {
+      alert("Game Over. You have won!!!!");
+      resetFields();
+      alert("To play with a new partner click new game.")
