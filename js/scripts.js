@@ -23,5 +23,11 @@ function Player(rollDice,turnScore,totalScore,active) {
              $(".player2").children().prop('disabled', false);
              $(".player2").removeClass("disableGamingField");
            }
-
-          
+           else if (this.active === player2.active) {
+                                 score2.active = false;
+                                 score1.active = true;
+                                 $(".player2").children().prop('disabled', true);
+                                 $(".player2").addClass("disableGamingField");
+                                 $("player1").children().prop('disabled', false);
+                                 $(".player1").removeClass("disableGamingField");
+                             }
